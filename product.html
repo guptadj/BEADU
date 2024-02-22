@@ -260,5 +260,29 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      // Get the navbar links for "About" and "Contact Us"
+      var aboutLink = document.querySelector('.nav-link[href="#about"]');
+      var contactLink = document.querySelector('.nav-link[href="#contact"]');
+
+      // Scroll smoothly to the "Contact Us" section when the link is clicked
+      contactLink.addEventListener('click', function (e) {
+          e.preventDefault();
+          scrollToSection('#contact');
+      });
+
+      // Function to scroll smoothly to a specific section
+      function scrollToSection(selector) {
+      var targetElement = document.querySelector(selector);
+      if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+
+  });
+</script>
 </body>
 </html>
