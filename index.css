@@ -51,6 +51,21 @@
 .carousel-indicators .active{
     background-color: black;
 }
+.nav-list {
+    border-radius: 10%;
+    border: palevioletred 1px;
+    margin-right: 5px;
+    background-color: rgb(245, 171, 236);
+
+}
+
+.nav-list {
+    transition: transform 0.3s; /* Smooth transition */
+  }
+
+.nav-list:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+  }
 
 
 @media (min-width: 768px) {
@@ -70,8 +85,9 @@
     
     
     
+    
 }
-@media (max-width:786) {
+@media (max-width:786px) {
     .p-img{
         /* padding: 50px; */
         /* background-color: green; */
@@ -79,14 +95,31 @@
         /* width: 200px; */
         /* height: 200px; */
         /* margin: 0 auto; */
+        padding: 4%;
     }
     .p-img:hover{
         -ms-transform: scale(1.1); /* IE 9 */
         -webkit-transform: scale(1.1); /* Safari 3-8 */
         transform: scale(1.1); 
+        /* padding: 2%; */
     }
     .image-container img{
         width: 78%;
+        padding: 4%;
+        width:80% ;
     }   
+    .nav-list {
+        border-radius: 0%;
+        border: palevioletred 1px;
+        margin-right: 0px;
+        background-color: rgb(245, 171, 236);
+        text-align: center;
+        margin: 1%;
+        width: 100%;
+    
+    }
+
     
 }
+
+
