@@ -1,3 +1,25 @@
+body{
+    /* font-family: Angkasa; */
+    /* font-family: 'Angkasa', sans-serif; */
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.abt{
+    background-color:#f19999;
+}
+
+.back_1{
+    background-image: url("back_1.png");
+    background-repeat: repeat/no-repeat;
+    /* size: 200%; */
+}
+.back_2{
+/* background-color: aliceblue; */
+/* width: 16%; */
+}
+
 .d-block{
     height: 50%;
 }
@@ -52,10 +74,10 @@
     background-color: black;
 }
 .nav-list {
-    border-radius: 10%;
+    border-radius: 17%;
     border: palevioletred 1px;
     margin-right: 5px;
-    background-color: rgb(245, 171, 236);
+    background-color: rgb(183 213 233);
 
 }
 
@@ -112,7 +134,7 @@
         border-radius: 0%;
         border: palevioletred 1px;
         margin-right: 0px;
-        background-color: rgb(245, 171, 236);
+        background-color: rgb(183 213 233);
         text-align: center;
         margin: 1%;
         width: 100%;
